@@ -1,0 +1,84 @@
+List Comprehensions
+
+You are given three integers X, Y and Z denoting the dimensions of a
+Cuboid. You have to print a list of all possible coordinates on the
+three dimensional grid, such that at any point the sum Xi + Yi + Zi is
+not equal to N. If X = 2, then possible values of Xi can be 0, 1 and 2.
+The same applies to Y and Z.
+
+Input Format
+
+Four integers X, Y, Z and N in four different lines.
+
+Output Format
+
+You have to print the list, in increasing order.
+
+Sample Input
+
+1 1 1 2
+
+Sample Output
+
+[[0, 0, 0], [0, 0, 1], [0, 1, 0], [1, 0, 0], [1, 1, 1]]
+
+_________________________________
+
+Nested List (DONE)
+
+There is a classroom of ‘n’ students and you are given their names and
+marks in physics. Store them in a nested list and print out names of
+student who got the second lowest marks in physics.
+
+NOTE: If there are more than one student getting same marks, make sure
+you print the names of all students in alphabetical order, in different
+lines.
+
+Input Format
+
+Integer N followed by alternating sequence of N strings and N numbers.
+
+Output Format
+
+Name of student
+
+Sample Input
+
+5 Harry 37.21 Berry 37.21 Tina 37.2 Akriti 41 Harsh 39
+
+Sample Output
+
+Berry Harry
+
+_________________________________
+
+Finding the percentage
+
+There is a record of ‘n’ students, each record having name of student,
+percent marks obtained in Maths, Physics and Chemistry. Marks can be
+floating values. The user enters an integer ‘n’ followed by names and
+marks for the ‘n’ students. You are required to save the record in a
+dictionary data type. The user then enters name of a student and you are
+required to print the average percentage marks obtained by that student,
+correct to two decimal places.
+
+Input Format
+
+Integer N followed by name and marks for N students.
+
+Output Format
+
+Average percentage of marks obtained
+
+Constraints 2 <= N <= 10 0 <= Marks <= 100
+
+Sample Input
+
+3 Krishna 67 68 69 Arjun 70 98 63 Malika 52 56 60 Malika
+
+Sample Output
+
+56.00
+
+
+-- 
